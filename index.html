@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find Recipes</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="bootstrap@5.0.0-alpha2.min.css">
+</head>
+
+<body>
+   
+   <div class="container text-center pt-3" id="home">
+      <div class="jumbotrone p-3">
+         <h1 class="text-light">Recipe Finder</h1>
+         <div>
+            <input class=" my-3" id="search-bar" type="text" placeholder="Search Recipe Here..."/>
+            <button class="btn text-light" id="search-btn" type="submit">Search</button>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+      <div class="row" id="output">
+      </div> 
+   </div>
+<script src="index.js"></script>
+<script src="axios.min.js"></script>
+<script src="bootstrap.bundle.js"></script>
+</body>
+
+</html>
